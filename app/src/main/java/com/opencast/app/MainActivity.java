@@ -82,7 +82,10 @@ public class MainActivity extends AppCompatActivity
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
+        // Handle navigation view item clicks here.
+        int id = item.getItemId();
+
+        switch (id) {
             case R.id.nav_home:
                 break;
             case R.id.nav_podcasts:
